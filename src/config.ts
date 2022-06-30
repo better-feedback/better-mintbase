@@ -2,9 +2,9 @@ export const githubConfig = {
   repoOwner: process.env.NEXT_PUBLIC_REPO_OWNER || "",
   repoName: process.env.NEXT_PUBLIC_REPO_NAME || "",
   labels: {
-    open: ["bug", "feature"],
-    planned: ["planned"],
+    open: ["open"],
     inProgress: ["inProgress"],
+    live: ["live"],
   },
 
   // secret
@@ -23,11 +23,15 @@ export const nearChainConfig = {
 
 export const siteConfig = {
   enabledChains: ["near"],
-  projectName: "Better",
-  title: "Better",
+  projectName: "Mintbase",
+  title: "Mintbase Roadmap",
+  metaDescription: "Mintbase Roadmap",
+  url: "https://mintbase.betterhq.org/",
+  metaImg: "https://raw.githubusercontent.com/better-feedback/better-app/1926cf0a2327e629128f65e57edeee7440294e0b/public/metaTagImg.jpg?token=AF6ZD6A7XI4IS7I3MRLDQSDCTY6QK",
   externalLinks: {
-    homepage: "",
-    docs: "",
+    docs: "https://github.com/better-feedback/better-mintbase#readme",
+    discord: "wwwwRFa6aj",
+    twitter: "betterdao",
   },
 };
 
